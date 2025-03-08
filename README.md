@@ -32,3 +32,13 @@ Second testing<br>
     - Best score: 5338<br>
     - PCA: 15<br>
     - Notable models Lasso, Ridge, Baysian Ridge, Elastic Net. Score: 5372 - 5382<br>
+
+Third testing<br>
+    - all steps from second test done<br>
+    - removed kw_min_max bigger than 400,000<br>
+    - removed kw_max-max bigger than 400,000<br>
+    <br>
+    - Best model: Ridge<br>
+    - Best score: 4147<br>
+    - PCA: 59<br>
+    - Notable models Linear, Lasso, Elastic Net<br>
