@@ -32,13 +32,27 @@ Second testing<br>
     - Best score: 5338<br>
     - PCA: 15<br>
     - Notable models Lasso, Ridge, Baysian Ridge, Elastic Net. Score: 5372 - 5382<br>
-
+<br>
 Third testing<br>
+    - Number of articles in the trainning set here is 2244<br>
+    - this test should not be taken into consideration
     - all steps from second test done<br>
-    - removed kw_min_max bigger than 400,000<br>
-    - removed kw_max-max bigger than 400,000<br>
-    <br>
+    - removed kw_min_max bigger than 400,000. Here also the outlier should be <br>
+    - removed kw_max_max bigger than 400,000. Mistake here as the cutoff for this is 843300 <br>
     - Best model: Ridge<br>
     - Best score: 4147<br>
     - PCA: 59<br>
     - Notable models Linear, Lasso, Elastic Net<br>
+    ![Results with 25k removed articles](images/third-testing.png)<br>
+
+<br>
+Fourth testing<br>
+    * Removed url column<br>
+    * Eliminating outliers by "hand"<br>
+        - improved the outlier threshhold on third testing
+        - removed kw_min_max, kw_max_max according to the outlier threshhold
+    - Best model: Ridge<br>
+    - Best score: 5415<br>
+    - PCA: 59<br>
+Worse score even though the improvement of the outliers
+<br>
