@@ -43,7 +43,8 @@ Third testing<br>
     - Best score: 4147<br>
     - PCA: 59<br>
     - Notable models Linear, Lasso, Elastic Net<br>
-    ![Results with 25k removed articles](images/third-testing.png)<br>
+
+![Results with 25k removed articles](images/third-testing.png)<br>
 
 <br>
 Fourth testing<br>
