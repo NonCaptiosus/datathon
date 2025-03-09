@@ -42,9 +42,11 @@ Third testing<br>
     - Best model: Ridge<br>
     - Best score: 4147<br>
     - PCA: 59<br>
-    - Notable models Linear, Lasso, Elastic Net<br>
-    ![Results with 25k removed articles](images/third-testing.png)<br>
+    - Notable models Linear, Lasso, Elastic Net
+    
+![Best result from pre-processing](images/third-testing.png)
 
+<br>
 <br>
 Fourth testing<br>
     * Removed url column<br>
