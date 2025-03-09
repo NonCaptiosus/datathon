@@ -64,4 +64,11 @@ Fifth testing<br>
     - Best model: Ridge<br>
     - PCA: 59<br>
     - Score: 5342<br>
+
+Sixth testing, Hyperparameter tunning<br>
+    - Best results: 4358<br>
+    - Best model: Lasso<br>
+    - Params: {'model__alpha': np.float64(10.0)}<br>
+
+![Results with 25k removed articles](images/hyperparameter-tunning.png)<br>
  
