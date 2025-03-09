@@ -43,7 +43,8 @@ Third testing<br>
     - Best score: 4147<br>
     - PCA: 59<br>
     - Notable models Linear, Lasso, Elastic Net<br>
-    ![Results with 25k removed articles](images/third-testing.png)<br>
+    
+![Results with 25k removed articles](images/third-testing.png)
 
 <br>
 Fourth testing<br>
@@ -64,4 +65,10 @@ Fifth testing<br>
     - Best model: Ridge<br>
     - PCA: 59<br>
     - Score: 5342<br>
- 
+<br>
+Sixth testing grid search for hyperparameter tunning<br>
+    - Best Model: Lasso<br>
+    - Best score: 4358<br>
+    - Best Parameters: {'model__alpha': np.float64(10.0)}<br>
+
+![Results with 25k removed articles](images/hyperparameter-tunning.png)
