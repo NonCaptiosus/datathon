@@ -58,14 +58,14 @@ Fourth testing<br>
 Worse score even though the improvement of the outliers
 <br>
 Doing permutation importance to figure out what features seem more important, kw_avg_avg, self_referencing_avg_sharess seemd the most important ones but i needed to remove outliers first in those before being certain. Decision Trees, Random Forest and XGBoost were removed from the pipeline and created a separate one to test them because they do not need normalization or standartization and I was doing that in the previous tests which should be the reason for their bad performance.
-
+<br>
 <br>
 Fifth testing<br>
     - From the outliers in test three, kw_max_avg, kw_avg_avg, self_reference_avg_sharess, num_hrefs were added but results did not change much<br>
     - Best model: Ridge<br>
     - PCA: 59<br>
     - Score: 5342<br>
-
+<br>
 Sixth testing, Hyperparameter tunning<br>
     - Best results: 4358<br>
     - Best model: Lasso<br>
